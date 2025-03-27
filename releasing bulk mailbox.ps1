@@ -1,0 +1,1 @@
+﻿import-csv -Path "C:\Users\jasper.valenzuela\Documents\OFFICE365\Powershell\RandalLicense.csv" | foreach {Set-Mailbox -Identity $_.Identity -Type Shared}

@@ -1,0 +1,1 @@
+﻿Remove-RecipientPermission Rob.pfleging@vertivco.com -Trustee Christy.Skipper@vertivco.com -AccessRights Sendonbehalf $null

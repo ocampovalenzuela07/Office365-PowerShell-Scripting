@@ -1,0 +1,1 @@
+﻿Remove-UserPhoto -identity jasper.valenzuela@vertivco.com

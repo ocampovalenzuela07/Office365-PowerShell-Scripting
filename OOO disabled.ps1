@@ -1,0 +1,1 @@
+﻿Set-MailboxAutoReplyConfiguration -Identity hardy.schmidt@vertivco.com -AutoReplyState Disabled

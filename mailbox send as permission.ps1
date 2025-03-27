@@ -1,0 +1,1 @@
+﻿Add-RecipientPermission GRFTREASURY@vertivco.com -AccessRights SendAs -Trustee Caroline.Collins@vertivco.com

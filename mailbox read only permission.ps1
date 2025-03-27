@@ -1,0 +1,1 @@
+﻿Add-MailboxPermission -Identity rilevamento.presenze@vertivco.com -AccessRights ReadPermission -user Valeria.Fedeli@vertivco.com

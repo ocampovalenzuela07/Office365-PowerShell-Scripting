@@ -1,0 +1,1 @@
+﻿Disable-InboxRule -Identity "where my name is in the To box" -Mailbox "hardy.schmidt@vertivco.com"

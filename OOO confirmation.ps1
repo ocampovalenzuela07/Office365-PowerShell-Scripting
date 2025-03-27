@@ -1,0 +1,1 @@
+﻿Get-MailboxAutoReplyConfiguration -identity hardy.schmidt@vertivco.com | fl *state*

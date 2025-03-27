@@ -1,0 +1,1 @@
+﻿set-mailbox -Identity Eric.Hayes@vertivco.com -ForwardingSmtpAddress $null

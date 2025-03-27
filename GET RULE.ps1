@@ -1,0 +1,1 @@
+﻿Get-InboxRule -Mailbox hardy.schmidt@vertivco.com

@@ -1,0 +1,3 @@
+﻿$internalmessage = get-content 'C:\Users\jasper.valenzuela\Documents\OFFICE365\Powershell\internalmessage.txt' 
+$externalmessage = get-content 'C:\Users\jasper.valenzuela\Documents\OFFICE365\Powershell\internalmessage.txt'
+Set-MailboxAutoReplyConfiguration -Identity Simona.Brehovska@vertivco.com -AutoReplyState enabled -EndTime 02/28/2018 -InternalMessage "$internalmessage" -ExternalMessage "$internalmessage" 

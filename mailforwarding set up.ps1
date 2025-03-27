@@ -1,0 +1,1 @@
+﻿set-mailbox -Identity Tucker.Lehigh@vertivco.com -ForwardingAddress Terry.Obney@vertivco.com

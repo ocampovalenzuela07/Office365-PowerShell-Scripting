@@ -1,0 +1,1 @@
+﻿Get-MessageTrace -SenderAddress jasper.valenzuela@vertivco.com -RecipientAddress shukri.mohamed@vertivco.com

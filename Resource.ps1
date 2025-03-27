@@ -1,0 +1,1 @@
+﻿Set-Mailbox -Identity amer.ar.bs.asiapacificroom@vertivco.com  -type room

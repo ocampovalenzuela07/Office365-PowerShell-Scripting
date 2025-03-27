@@ -1,0 +1,1 @@
+﻿Add-MailboxFolderPermission -Identity EsnaConf.Room.Three.Reynosa@vertivco.com:\Calendar -user Cecilio.Leija@vertivco.com -AccessRights Owner -Confirm:$false  

@@ -1,0 +1,1 @@
+﻿Add-MailboxPermission -Identity LifeNetMonitoring.NetworkPower.PL@vertivco.com -AccessRights fullaccess -user EMEA-Mailbox-LifeNetMonitoring.NetworkPower.PL@vertivco.com -AutoMapping $false

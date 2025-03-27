@@ -1,0 +1,1 @@
+﻿Get-Mailbox -identity Eric.Hayes@vertivco.com | fl forwardingSmtpAddress

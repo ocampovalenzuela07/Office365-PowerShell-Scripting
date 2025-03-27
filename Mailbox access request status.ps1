@@ -1,0 +1,1 @@
+﻿get-mailboxFolderPermission -identity Amer.US.DLWR.VoltConfRoom@vertivco.com:\Calendar
