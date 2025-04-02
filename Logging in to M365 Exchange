@@ -1,0 +1,20 @@
+*// Logging in to M365 Exchange
+Install-Module ExchangeOnlineManagement
+
+If you encounter issues with the execution policy, you might need to set it to RemoteSigned temporarily: 
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+Open a new PowerShell window (as administrator).
+Import the module: Import-Module ExchangeOnlineManagement
+
+Connect to Exchange Online PowerShell:
+Connect with Credentials:
+Use the Connect-ExchangeOnline cmdlet to connect to Exchange Online PowerShell: Connect-ExchangeOnline -UserPrincipalName <your_admin_username>.
+You'll be prompted to enter your administrator credentials (username and password).
+Alternative (for scripts or when using different credentials):
+Store your credentials in a variable: $UserCredential = Get-Credential.
+Then, use the variable in the Connect-ExchangeOnline command: Connect-ExchangeOnline -Credential $UserCredential. 
+3. Verify Connection:
+After successful connection, you can run Exchange Online PowerShell cmdlets to manage your Exchange Online environment.
+For example, you can list all mailboxes: Get-Mailbox
